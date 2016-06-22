@@ -7,11 +7,20 @@ var myReduce = require('./myReduce');
   To run it on the console do: `node index.js`
 ***********************************************************************/
 
-var numArray = [0,1,10,100,1000];
+// var numArray = [0,1,10,100,1000];
 
 
-/* myEach */
+// /* myEach */
+// function myEach (numArray, callback) {
+// 	for (var i = 0; i < numArray.length; i++) {
+// 		callback(numArray[i]);
+// 	}
+// }
+// 	function print(thing) {
+// 		console.log(thing);
+// 	}
 
+// myEach();
 //
 /*myEach(numArray, function print(element, index, arr) {
    console.log('inside myEach', element, index, arr);
